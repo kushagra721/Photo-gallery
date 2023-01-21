@@ -1,0 +1,120 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+
+.container{
+    display: grid;
+    background-color: rgb(182, 191, 199);
+    border: 3px ;
+    border-radius: 10px;
+  
+    grid-template-columns: 1fr  1fr ;
+    
+    margin-left: 250px;
+    margin-right:250px;
+}
+
+.top{
+    grid-column: 1/-1;;
+    
+   
+    height: 100px;
+    
+    
+    
+
+    
+}
+.left{
+    
+    height: 340px;
+    width: 500px;
+    margin: 15px;
+
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 15px;
+   
+    
+
+}
+.item{
+    
+    margin: 15px;
+    height:150px
+    
+}
+.bottom{
+   
+    height: 150px;
+    width:500px;
+    margin: 15px;
+}
+.bottom2{
+    
+    width:400px;
+   
+    margin: 15px;
+}
+.ga{
+   margin: 15px;
+    margin-left: 30px;
+    font-size:50px;
+}
+.one{
+    margin-top: 50px;
+    margin: 0;
+    padding: 0;
+    height: 340px;
+    width: 500px;
+}
+.iron{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 170px;
+}
+.thor{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 170px;
+    
+}
+.hulk{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 170px;
+
+}
+.captain{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 170px;
+
+
+}
+.hulk1{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 150px;
+
+}
+.spider{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 150px;
+}
+.hr{
+    margin-left: 300px;
+    z-index: -1;
+}
